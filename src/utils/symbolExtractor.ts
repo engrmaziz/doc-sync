@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import { glob } from "glob";
-import { DocuSyncConfig } from "./config";
+import { DocuSyncConfig } from "./config.js";
 
 const EXPORT_PATTERNS: RegExp[] = [
   /export\s+(?:default\s+)?(?:async\s+)?function\s+(\w+)/g,

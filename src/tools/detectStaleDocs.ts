@@ -1,6 +1,6 @@
 import * as fs from "fs";
-import { extractChangedSymbols } from "../utils/diffParser";
-import { scanDocFile, DocSection } from "../utils/docScanner";
+import { extractChangedSymbols } from "../utils/diffParser.js";
+import { scanDocFile, DocSection } from "../utils/docScanner.js";
 
 export type Confidence = "high" | "medium" | "low";
 

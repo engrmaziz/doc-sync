@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import { glob } from "glob";
-import { DocuSyncConfig } from "../utils/config";
-import { extractAllSymbols } from "../utils/symbolExtractor";
+import { DocuSyncConfig } from "../utils/config.js";
+import { extractAllSymbols } from "../utils/symbolExtractor.js";
 
 export interface DocCoverageReport {
   total_symbols: number;

@@ -3,10 +3,10 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
-import { loadConfig } from "./utils/config";
-import { detectStaleDocs } from "./tools/detectStaleDocs";
-import { buildDocMaintainerPrompt } from "./prompts/docMaintainer";
-import { computeDocCoverage } from "./resources/docCoverage";
+import { loadConfig } from "./utils/config.js";
+import { detectStaleDocs } from "./tools/detectStaleDocs.js";
+import { buildDocMaintainerPrompt } from "./prompts/docMaintainer.js";
+import { computeDocCoverage } from "./resources/docCoverage.js";
 
 const config = loadConfig(process.cwd());
 
