@@ -1,0 +1,11 @@
+diff --git a/src/auth.ts b/src/auth.ts
+index 1234567..89abcde 100644
+--- a/src/auth.ts
++++ b/src/auth.ts
+@@ -10,7 +10,7 @@
+-export function loginUser(username: string) {
++export function authenticateUser(username: string, password: string) {
+   // implementation
+ }
++
++export const MAX_LOGIN_ATTEMPTS = 5;
