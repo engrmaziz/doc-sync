@@ -1,20 +1,10 @@
-<!-- ========================================================= -->
-<!--                       DOCUSYNC MCP                         -->
-<!-- ========================================================= -->
-
-<p align="center">
-  <img src="./assets/banner.png" width="100%" alt="DocuSync MCP Banner">
-</p>
-
 <h1 align="center">
 DocuSync MCP
 </h1>
 
 <p align="center">
 
-Enterprise-grade documentation intelligence for AI coding assistants using the Model Context Protocol (MCP).
-
-Index, synchronize, understand, and retrieve documentation from any source with blazing-fast semantic search and developer-friendly workflows.
+_Enterprise-grade documentation intelligence for AI coding assistants using the Model Context Protocol (MCP). Index, synchronize, understand, and retrieve documentation from any source with blazing-fast semantic search and developer-friendly workflows._
 
 </p>
 
